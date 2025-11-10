@@ -1,0 +1,6 @@
+[submodule "extern/spatial-casadi"]
+	path = extern/spatial-casadi
+	url = git@github.com:cmower/spatial-casadi.git
+[submodule "extern/figure_eight"]
+	path = extern/figure_eight
+	url = git@github.com:cmower/figure_eight.git

@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["b1k"]
+
+[project]
+name = "b1k"
+version = "1.0.0"
+description = "Package for Behavior1K package."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy<=1.26",
+    "scipy",
+    "pyyaml",
+    "matplotlib",
+    "casadi",
+    "pybullet",
+    # "spatial-casadi", # needs updated version which I didn't push to pypi yet (see README)
+    "lxml",
+    # "pin", # should be install via conda (see README)
+ ]
